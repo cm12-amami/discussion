@@ -1,0 +1,95 @@
+
+April 1st
+
+CVE-2017-0538	  Critical	[N/A for LP according to ASB]
+CVE-2017-0539   Critical	implemented
+CVE-2017-0541	  Critical	implemented
+CVE-2017-0542   Critical	[N/A for LP according to ASB]
+CVE-2017-0543   Critical	[N/A for LP according to ASB]
+CVE-2017-0544	  Critical	implemented
+CVE-2017-0545	  Critical	implemented
+
+CVE-2017-0546	High		implemented
+CVE-2017-0547	High		implemented
+CVE-2017-0548	High		[N/A for LP according to ASB]
+CVE-2017-0549	High		[N/A for LP according to ASB]
+CVE-2017-0550	High		[N/A for LP according to ASB]
+CVE-2017-0551	High		[N/A for LP according to ASB]
+CVE-2017-0552	High		[N/A for LP according to ASB]
+
+CVE-2017-0553	Moderate	implemented
+CVE-2017-0554	Moderate	implemented
+CVE-2017-0555	Moderate	[N/A for LP according to ASB]
+CVE-2017-0556	Moderate	[N/A for LP according to ASB]
+CVE-2017-0557	Moderate	[N/A for LP according to ASB]
+CVE-2017-0558	Moderate	<NOT YET IMPLEMENTED: LP Code differs significantly from N>
+CVE-2017-0559	Moderate	implemented
+CVE-2017-0560	Moderate	<NOT YET IMPLEMENTED: LP Code differs significantly from N>
+
+
+April 5th
+
+CVE-2017-0561	  Critical	[closed source]
+CVE-2016-10230  Critical	implemented
+CVE-2016-10229  Critical	implemented
+CVE-2017-0562	  Critical	[closed source]
+CVE-2017-0563	  Critical	[closed source]
+CVE-2017-0564	  Critical	[closed source]
+CVE-2016-10237  Critical	[closed source]
+CVE-2016-10238  Critical	[closed source]
+
+CVE-2016-10239  High		[closed source]
+CVE-2016-5129	  High		[N/A for LP according to ASB]
+CVE-2016-10244  High		implemented (used cm-13.0 branch)
+CVE-2014-4656	  High		implemented
+CVE-2017-0339	  High		[closed source]
+CVE-2017-0332	  High		[closed source]
+CVE-2017-0327	  High		[closed source]
+CVE-2017-0565	  High		[closed source]
+CVE-2017-0566	  High		[closed source]
+CVE-2017-0567	  High		[closed source]
+CVE-2017-0568	  High		[closed source]
+CVE-2017-0569	  High		[closed source]
+CVE-2017-0570	  High		[closed source]
+CVE-2017-0571	  High		[closed source]
+CVE-2017-0572	  High		[closed source]
+CVE-2017-0573	  High		[closed source]
+CVE-2017-0574	  High		[closed source]
+CVE-2017-0575	  High		[closed source]
+CVE-2017-0325	  High		[closed source]
+CVE-2017-0454	  High		[N/A for amami: File to be patched does not exist in our kernel tree]
+CVE-2017-0576	  High		implemented
+CVE-2017-0577	  High		[closed source]
+CVE-2017-0578	  High		[closed source]
+CVE-2016-10231  High		[N/A for amami: File to be patched does not exist in our kernel tree]
+CVE-2017-0579	  High		[closed source]
+CVE-2016-10232  High		<NOT (YET) IMPLEMENTED: Significantly different code; backport or N/A???>
+CVE-2016-10233  High		[N/A for amami: No file to be patched exists in our kernel tree]
+CVE-2017-0329	  High		[closed source]
+CVE-2017-0580	  High		[closed source]
+CVE-2017-0581	  High		[closed source]
+CVE-2017-0462	  High		[N/A for amami: No file to be patched exists in our kernel tree]
+CVE-2017-0463	  High		[N/A for amami: No file to be patched exists in our kernel tree]
+CVE-2014-9922	  High		<NOT (YET) IMPLEMENTED: not all files to be patched exist; backport or N/A???>
+CVE-2014-0206	  High		[N/A for amami: Fixes a feature, which was instroduced in 3.10 kernel]
+CVE-2014-3145	  High		implemented
+CVE-2016-5349	  High		<NOT (YET) IMPLEMENTED: not all files to be patched exist; backport or N/A???>
+CVE-2016-10234  High		<NOT (YET) IMPLEMENTED: Significantly different code; backport or N/A???>
+CVE-2014-2706	  High		implemented
+CVE-2016-10235	High		[N/A for amami: No file to be patched exists in our kernel tree]
+
+CVE-2016-7097	  Moderate	<NOT (YET) IMPLEMENTED: Significantly different code; backport or N/A???>
+CVE-2017-6424	  Moderate	[NN/A for amami: No file to be patched exists in our kernel tree]
+CVE-2016-8465	  Moderate	[closed source]
+CVE-2017-0582	  Moderate	[closed source]
+CVE-2017-0583	  Moderate	[N/A for amami: Fixes an ARM64 issue]
+CVE-2014-1739	  Moderate	implemented
+CVE-2017-0584	  Moderate	[closed source]
+CVE-2017-0585	  Moderate	[closed source]
+CVE-2016-5346	  Moderate	<NOT (YET) IMPLEMENTED: Significantly different code; backport or N/A???>
+CVE-2017-6425	  Moderate	[N/A for amami: File to be patched does not exist in our kernel tree]
+CVE-2016-10236  Moderate	[N/A for amami: File to be patched does not exist in our kernel tree]
+CVE-2017-0586	  Moderate	[closed source]
+CVE-2017-6426	  Moderate	[N/A for amami: File to be patched does not exist in our kernel tree]
+CVE-2017-0328   Moderate 	[closed source]
+CVE-2017-0330   Moderate	[closed source]
