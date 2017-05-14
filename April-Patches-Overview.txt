@@ -73,7 +73,7 @@ CVE-2017-0463	  High		[N/A for amami: No file to be patched exists in our kernel
 CVE-2014-9922	  High		implemented
 CVE-2014-0206	  High		[N/A for amami: Fixes a feature, which was instroduced in 3.10 kernel]
 CVE-2014-3145	  High		implemented
-CVE-2016-5349	  High		implemented
+CVE-2016-5349	  High		<NOT (YET) IMPLEMENTED: not all files to be patched exist; backport or N/A???>
 CVE-2016-10234  High		implemented
 CVE-2014-2706	  High		implemented
 CVE-2016-10235	High		[N/A for amami: No file to be patched exists in our kernel tree]
