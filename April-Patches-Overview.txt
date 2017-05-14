@@ -78,7 +78,7 @@ CVE-2016-10234  High		implemented
 CVE-2014-2706	  High		implemented
 CVE-2016-10235	High		[N/A for amami: No file to be patched exists in our kernel tree]
 
-CVE-2016-7097	  Moderate	<NOT (YET) IMPLEMENTED: Significantly different code; backport or N/A???>
+CVE-2016-7097	  Moderate	implemented
 CVE-2017-6424	  Moderate	[NN/A for amami: No file to be patched exists in our kernel tree]
 CVE-2016-8465	  Moderate	[closed source]
 CVE-2017-0582	  Moderate	[closed source]
