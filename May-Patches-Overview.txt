@@ -5,20 +5,20 @@ CVE-2017-0588 	Critical 	implemented
 CVE-2017-0589 	Critical 	implemented
 CVE-2017-0590 	Critical 	implemented
 CVE-2017-0591 	Critical 	[N/A for LP]
-CVE-2017-0592 	Critical 	<backport required>
+CVE-2017-0592 	Critical 	implemented
 
 CVE-2017-0593 	High 		  [N/A for LP]
 CVE-2017-0594 	High 		  implemented
 CVE-2017-0595 	High 		  implemented
 CVE-2017-0596 	High 		  implemented
-CVE-2017-0597 	High		  implemented 	
+CVE-2017-0597 	High		  implemented
 CVE-2017-0598	  High		  implemented
 CVE-2017-0599 	High		  [N/A for LP]
 CVE-2017-0600	  High		  implemented
 
 CVE-2017-0601	  moderate	[N/A for LP]
 CVE-2017-0493	  moderate	[N/A for LP]
-CVE-2017-0602	  moderate	implemented 	
+CVE-2017-0602	  moderate	implemented
 CVE-2016-7056	  moderate	<backport required>
 CVE-2017-0603	  moderate	implemented
 
