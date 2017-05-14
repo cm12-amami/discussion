@@ -86,7 +86,7 @@ CVE-2017-0583	  Moderate	[N/A for amami: Fixes an ARM64 issue]
 CVE-2014-1739	  Moderate	implemented
 CVE-2017-0584	  Moderate	[closed source]
 CVE-2017-0585	  Moderate	[closed source]
-CVE-2016-5346	  Moderate	<NOT (YET) IMPLEMENTED: Significantly different code; backport or N/A???>
+CVE-2016-5346	  Moderate	implemented
 CVE-2017-6425	  Moderate	[N/A for amami: File to be patched does not exist in our kernel tree]
 CVE-2016-10236  Moderate	[N/A for amami: File to be patched does not exist in our kernel tree]
 CVE-2017-0586	  Moderate	[closed source]
