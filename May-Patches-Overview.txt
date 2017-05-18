@@ -86,7 +86,7 @@ CVE-2014-9940	  High		<if applicable, backport required>
 CVE-2017-0621	  High		<if applicable (file has different name!), backport required>
 CVE-2016-5868	  High		[N/A - file to be patched does not exist]
 CVE-2017-7184	  High		<if applicable, backport required>
-CVE-2017-0622	  High		<if applicable, backport required>
+CVE-2017-0622	  High		implemented
 CVE-2017-0623	  High		[closed source]
 CVE-2017-0624	  High		[closed source]
 CVE-2017-0625	  High		[closed source]
