@@ -11,10 +11,10 @@ CVE-2017-0593 	High 		  [N/A for LP]
 CVE-2017-0594 	High 		  implemented
 CVE-2017-0595 	High 		  implemented
 CVE-2017-0596 	High 		  implemented
-CVE-2017-0597 	High		  implemented
-CVE-2017-0598	  High		  implemented
+CVE-2017-0597   High		  implemented
+CVE-2017-0598   High		  implemented
 CVE-2017-0599 	High		  [N/A for LP]
-CVE-2017-0600	  High		  implemented
+CVE-2017-0600   High		  implemented
 
 CVE-2017-0601	  moderate	[N/A for LP]
 CVE-2017-0493	  moderate	[N/A for LP]
@@ -48,31 +48,31 @@ CVE-2016-10281	High 		[closed source]
 CVE-2016-10282	High 		[closed source]
 CVE-2016-10283	High		[N/A - file to be patched does not exist]
 CVE-2016-10284	High		[closed source]
-CVE-2016-10285	High		<backport required>
+CVE-2016-10285	High		[N/A - decision after analysis]
 CVE-2016-10286	High		[N/A - file to be patched does not exist]
 CVE-2015-9004 	High		implemented
 
 CVE-2016-10287	High		[N/A - file to be patched does not exist]
 CVE-2017-0606 	High		[N/A - file to be patched does not exist]
 CVE-2016-5860	  High		[N/A - file to be patched does not exist]
-CVE-2016-5867	  High		<if applicable (probably not), backport required>
-CVE-2017-0607	  High		<if applicable (probably not), backport required>
-CVE-2017-0608	  High		<if applicable (probably not), backport required>
+CVE-2016-5867	  High		[N/A - decision after analysis]
+CVE-2017-0607	  High		[N/A - decision after analysis]
+CVE-2017-0608	  High		[N/A - decision after analysis]
 CVE-2017-0609	  High		[N/A - file to be patched does not exist]
-CVE-2016-5859	  High		<if applicable (probably not), backport required>
-CVE-2017-0610	  High		<if applicable (probably not), backport required>
-CVE-2017-0611	  High		<if applicable (probably not), backport required>
+CVE-2016-5859	  High		[N/A - decision after analysis]
+CVE-2017-0610	  High		[N/A - decision after analysis]
+CVE-2017-0611	  High		[N/A - decision after analysis]
 CVE-2016-5853	  High		[N/A - file to be patched does not exist]
 
 CVE-2016-10288	High		[N/A - file to be patched does not exist]
 CVE-2016-10289	High		implemented
 CVE-2016-10290	High		[N/A - file to be patched does not exist]
 CVE-2016-10291	High		[N/A - file to be patched does not exist]
-CVE-2017-0465	  High		<if applicable, backport required>
+CVE-2017-0465	  High		[N/A - decision after analysis]
 
-CVE-2017-0612	  High		<if applicable, backport required>
-CVE-2017-0613	  High		<if applicable, backport required>
-CVE-2017-0614	  High		<if applicable, backport required>
+CVE-2017-0612	  High		[N/A - decision after analysis]
+CVE-2017-0613	  High		[N/A - decision after analysis]
+CVE-2017-0614	  High		[N/A - decision after analysis]
 
 CVE-2017-0615	  High		[closed source]
 CVE-2017-0616	  High		[closed source]
@@ -82,27 +82,27 @@ CVE-2017-0618	  High		[closed source]
 CVE-2017-0619	  High		[N/A - file to be patched does not exist]
 CVE-2017-0620	  High		[N/A - file to be patched does not exist]
 CVE-2016-5862	  High		[N/A - fix is for MSM8996 Kernels, ours is MSM8974]
-CVE-2014-9940	  High		<if applicable, backport required>
-CVE-2017-0621	  High		<if applicable (file has different name!), backport required>
+CVE-2014-9940	  High		[N/A - decision after analysis]
+CVE-2017-0621	  High		[N/A - decision after analysis]
 CVE-2016-5868	  High		[N/A - file to be patched does not exist]
-CVE-2017-7184	  High		<if applicable, backport required>
+CVE-2017-7184	  High		[N/A - decision after analysis]
 CVE-2017-0622	  High		implemented
 CVE-2017-0623	  High		[closed source]
 CVE-2017-0624	  High		[closed source]
 CVE-2017-0625	  High		[closed source]
-CVE-2017-0626	  High		<if applicable, backport required>
+CVE-2017-0626	  High		[N/A - decision after analysis]
 CVE-2016-10292	High		[closed source]
 
 CVE-2017-0627	  Moderate	[closed source]
-CVE-2016-10293	Moderate	<if applicable, backport required>
+CVE-2016-10293	Moderate	[N/A - decision after analysis]
 CVE-2016-10294	Moderate	[N/A - file to be patched does not exist]
-CVE-2016-10295	Moderate	<if applicable (file has different name!), backport required>
+CVE-2016-10295	Moderate	[N/A - decision after analysis]
 CVE-2016-10296	Moderate	[N/A - file to be patched does not exist]
-CVE-2017-0628	  Moderate	<if applicable, backport required>
-CVE-2017-0629	  Moderate	<if applicable, backport required>
+CVE-2017-0628	  Moderate	[N/A - decision after analysis]
+CVE-2017-0629	  Moderate	[N/A - decision after analysis]
 CVE-2017-0630	  Moderate	[closed source]
 CVE-2016-5858	  Moderate	implemented (1 of 2)
-CVE-2017-0631 	Moderate	<if applicable (file has different name!), backport required>
+CVE-2017-0631 	Moderate	[N/A - decision after analysis]
 CVE-2016-5347	  Moderate	[N/A - file to be patched does not exist]
 CVE-2016-5854	  Moderate	[N/A - file to be patched does not exist]
 CVE-2016-5855	  Moderate	[N/A - file to be patched does not exist]
