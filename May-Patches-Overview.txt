@@ -28,7 +28,7 @@ CVE-2017-0635	  low		    [N/A for LP]
 
 05.05.2017
 
-CVE-2015-7555	  Critical	<backport required>
+CVE-2015-7555	  Critical	implemented
 CVE-2016-10274	Critical	[Closed source]
 CVE-2016-10275	Critical	[bootloader out of our scope]
 CVE-2016-10276	Critical	[bootloader out of our scope]
