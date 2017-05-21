@@ -24,7 +24,7 @@ CVE-2017-0556	Moderate	[N/A for LP according to ASB]
 CVE-2017-0557	Moderate	[N/A for LP according to ASB]
 CVE-2017-0558	Moderate	implemented
 CVE-2017-0559	Moderate	implemented
-CVE-2017-0560	Moderate	<NOT YET IMPLEMENTED: LP Code differs significantly from N>
+CVE-2017-0560	Moderate	implemented
 
 
 April 5th
