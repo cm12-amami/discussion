@@ -19,7 +19,7 @@ CVE-2017-0600   High		  implemented
 CVE-2017-0601	  moderate	[N/A for LP]
 CVE-2017-0493	  moderate	[N/A for LP]
 CVE-2017-0602	  moderate	implemented
-CVE-2016-7056	  moderate	<backport required>
+CVE-2016-7056	  moderate	[N/A for LP]
 CVE-2017-0603	  moderate	implemented
 
 CVE-2017-0635	  low		    [N/A for LP]
