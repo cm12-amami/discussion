@@ -1,10 +1,10 @@
 
-CVE-2017-0639   High
-CVE-2017-0645   Moderate  [N/A for Lollipop]
-CVE-2017-0646   Moderate
+CVE-2017-0639   High       
+CVE-2017-0645   Moderate   [N/A for Lollipop]
+CVE-2017-0646   Moderate   implemented
 
-CVE-2015-8871   High 
-CVE-2016-8332   High 
+CVE-2015-8871   High       >> w.i.p. need fork external/pdfium <<
+CVE-2016-8332   High       >> w.i.p. need fork external/pdfium <<
 CVE-2016-5131   High 
 CVE-2016-4658   High 
 CVE-2017-0663   High 
@@ -14,12 +14,12 @@ CVE-2017-7375   Moderate
 CVE-2017-0647   Moderate
 CVE-2016-1839   Moderate
 
-CVE-2017-0637   Critical
-CVE-2017-0391   High 
-CVE-2017-0640   High     [not publicly available]
-CVE-2017-0641   High
-CVE-2017-0642   High
-CVE-2017-0643   High     [not publicly available]
-CVE-2017-0644   High     [not publicly available]
+CVE-2017-0637   Critical  implemented
+CVE-2017-0391   High      implemented
+CVE-2017-0640   High      [not publicly available]
+CVE-2017-0641   High      implemented
+CVE-2017-0642   High      
+CVE-2017-0643   High      [not publicly available]
+CVE-2017-0644   High      [not publicly available]
 
-CVE-2017-0638   High     [N/A for Lollipop]
+CVE-2017-0638   High      [N/A for Lollipop]
