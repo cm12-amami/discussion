@@ -1,5 +1,5 @@
 
-CVE-2017-0639   High       
+CVE-2017-0639   High       implemented
 CVE-2017-0645   Moderate   [N/A for Lollipop]
 CVE-2017-0646   Moderate   implemented
 
