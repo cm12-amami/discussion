@@ -18,7 +18,7 @@ CVE-2017-0637   Critical  implemented
 CVE-2017-0391   High      implemented
 CVE-2017-0640   High      [not publicly available]
 CVE-2017-0641   High      implemented
-CVE-2017-0642   High      
+CVE-2017-0642   High      implemented
 CVE-2017-0643   High      [not publicly available]
 CVE-2017-0644   High      [not publicly available]
 
