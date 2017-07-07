@@ -1,7 +1,7 @@
 CVE-2017-3544 	A-35784677	moderate	[N/A - Files to be patched do not exist in our fork]
 
-CVE-2017-0664 	A-36491278	High		
-CVE-2017-0665 	A-36991414 	High		
+CVE-2017-0664 	A-36491278	High    implemented		
+CVE-2017-0665 	A-36991414 	High		implemented
 CVE-2017-0666 	A-37285689 	High		
 CVE-2017-0667 	A-37478824	High		
 CVE-2017-0668 	A-22011579	moderate	
