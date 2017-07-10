@@ -29,14 +29,14 @@ CVE-2017-0685 	A-34203195	High		[N/A - only for Android 6.x and 7.x]
 CVE-2017-0686 	A-34231231 	High 		[N/A - only for Android 6.x and 7.x]	
 CVE-2017-0688 	A-35584425 	High 		[N/A - only for Android 6.x and 7.x]	
 CVE-2017-0689 	A-36215950 	High		implemented
-CVE-2017-0690 	A-36592202 	High 		
+CVE-2017-0690 	A-36592202 	High 		implemented
 CVE-2017-0691 	A-36724453	High		[N/A - only for Android 7.x]
-CVE-2017-0692 	A-36725407 	High 			
+CVE-2017-0692 	A-36725407 	High 		implemented	
 CVE-2017-0693 	A-36993291 	High 		[N/A - only for Android 6.x and 7.x]
-CVE-2017-0694 	A-37093318 	High 		
+CVE-2017-0694 	A-37093318 	High 		implemented
 CVE-2017-0695 	A-37094889 	High 		implemented
 CVE-2017-0696 	A-37207120 	High 		[N/A - only for Android 6.x and 7.x]
-CVE-2017-0697 	A-37239013 	High 		
+CVE-2017-0697 	A-37239013 	High 		implemented
 CVE-2017-0698 	A-35467458 	Moderate	[N/A - only for Android 6.x and 7.x]
 CVE-2017-0699 	A-36490809 	Moderate	[N/A - only for Android 6.x and 7.x]
 
