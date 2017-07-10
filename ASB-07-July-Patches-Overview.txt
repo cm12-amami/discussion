@@ -9,7 +9,7 @@ CVE-2017-0669 	A-34114752	High		[N/A - only for Android 6.x and 7.x]
 CVE-2017-0670 	A-36104177	High		<t.b.d. - code significantly different>
 
 CVE-2017-0671 	A-34514762* 	High 		[N/A - only 4.4.4 and closed source]
-CVE-2016-2109 	A-35443725 	High 		
+CVE-2016-2109 	A-35443725 	High 		implemented
 CVE-2017-0672 	A-34778578	High		[N/A - only for Android 7.x]
 
 CVE-2017-0540 	A-33966031	Critical	implemented
