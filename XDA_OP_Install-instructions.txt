@@ -1,0 +1,40 @@
+[B][SIZE="4"]Installation instructions[/SIZE][/B]
+[HIDE]
+[B][SIZE="5"][COLOR="Red"]YOU ARE RESPONSIBLE SOLELY YOURSELF FOR ANY ACTIONS YOU DO WITH YOUR DEVICE !!![/COLOR][/SIZE][/B]
+Please note - we won't explain any single aspect (e.g. how to install 'fastboot' on your PC or troubleshoot USB connectivity issues under Windows). 
+Search the net and consult the search engine of your choice or look here in XDA, there is plenty information available.
+
+[B][SIZE="3"]Pre-Requisites[/SIZE][/B]
+[LIST]
+[*]Get familiar with the hardware keys of the Xperia Z1 compact device, especially how to enter [URL="http://www.theandroidsoul.com/sony-xperia-z1-compact-fastboot-mode/"]fastboot mode[/URL] and [URL="http://www.theandroidsoul.com/sony-xperia-z1-compact-recovery-mode/"]recovery mode[/URL]
+[*]Have [B]fastboot[/B] and [B]adb[/B] installed on your PC and make sure, you can connect via USB to your device in fastboot mode and via adb 
+[*]Download the most current .ZIP file of our ROM and place it to your phone's internal memory or SD card
+[*]If you wish to install Google apps (GApps), please refer to the GApps section further below
+[*]An [URL="https://developer.sonymobile.com/unlockbootloader/"]unlocked bootloader[/URL] (read the warnings carefully and [B]backup your data![/B]
+[/LIST]
+
+[B][SIZE="3"]Install TWRP recovery[/SIZE][/B]
+If you come from stock ROM and have just unlocked your boot loader, this is the next thing to do. If you have already a working custom recovery on your device, there is no necessity to replace it. 
+However - we recommend to use the TWRP recovery linked in this thread. The following instructions are based on TWRP.
+To install TWRP, download the [B]TWRP.img[/B] file (Note: replace "TWRP.img" in the following instructions with the real file name) from this section to your PC, connect the phone via USB to your PC, get it into 'fastboot mode' and enter the following command on your PC:
+[CODE]fastboot flash FOTAKernel TWRP.img[/CODE]
+Afterwards, directly boot into 'recovery mode' (enter [B]fastboot reboot[/B] on your PC and use the right hardware keys to get into recovery mode) - we recommend not to boot the phone's Android system after having flashed TWRP. Once TWRP has been launched, you may decide to reboot your phone and install the ROM at any time later. But the first boot after flashing TWRP should be TWRP in recovery mode.
+
+[B][SIZE="3"]Advanced Wipe[/SIZE][/B]
+[B]ONLY perform the steps described here, if you come from Stock ROM or a different Custom ROM![/B]
+Boot into recovery mode. In TWRP, choose "Wipe", "Advanced" and spefify "Dalvik", "System", "Cache" and "Data" to be wiped. 
+Make sure [B]NOT[/B] to wipe "Internal memory" or "SD Card". Swipe to confirm the deletion and get back into the main menu.
+
+[B][SIZE="3"]GApps[/SIZE][/B]
+You do not need to install GApps, but you may wish to do so. In that case, download GApps from [URL="http://opengapps.org"]here[/URL] and put the .ZIP also to the SD card or Internal memory of your device. 
+Choose ARM as platform, Android 5.1 and the flavor of your choice. We recommend "pico", as this leaves you the most freedom to only install, what you really need; you can later still install all the Google products you want and do not need to live with pre-installed Google applications you have no use for.
+
+[B][SIZE="3"]Install our ROM[/SIZE][/B]
+In the TWRP main menu, choose "Install". A file manager appears to let you navigate to your internal memory (path [B]/sdcard[/B]) or your SD card (path [B]/external_sd[/B]). 
+Choose the .ZIP file of our ROM and swipe to flash. If you update from a previous version of our ROM, you don't need to perform a wipe. 
+If you had GApps already installed before the update, there is no need to flash them again. They will be automatically restored during the flash process. 
+(Note: If you wish to get rid of GApps, navigate to TWRP's file manager in the Advanced section of the main menu, go to path [B]/system/addon.d[/B] and delete the file [B]70-gapps.sh[/B], before flashing the ROM update)
+If you come from a different ROM (or stock firmware), make sure that you have performed the Wipe steps above. 
+If you wish to install GApps, select the respective .ZIP file directly afterwards, [B]do not[/B] boot into Android before having flashed GApps.When finished flashing, return to the main menu, choose "Reboot" and then "System", which will cause your phone to boot into our Lineage OS 12.1 - [B]be patient[/B], the first boot after flashing a new ROM takes quite long!
+
+[/HIDE]
