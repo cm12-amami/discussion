@@ -1,21 +1,21 @@
 CVE-2017-0752 	A-62196835 [2] 	High 		   done
 
-CVE-2017-6983 	A-63852675 	    High 		
+CVE-2017-6983 	A-63852675 	    High 		   done*
 CVE-2017-0755 	A-32178311 	    High 		
 
 CVE-2017-0756 	A-34621073 	    Critical 	
 CVE-2017-0758 	A-36492741 	    Critical 	
 CVE-2017-0762 	A-62214264 	    Critical 	
 CVE-2017-0763 	A-62534693 	    Critical 	
-CVE-2017-0764 	A-62872015 	    Critical 	
-CVE-2017-0766 	A-37776688 	    High 	 	
+CVE-2017-0764 	A-62872015 	    Critical 	 done
+CVE-2017-0766 	A-37776688 	    High 	 	   done
 CVE-2017-0767 	A-37536407 [2]  High 	 	
 CVE-2017-0768 	A-62019992 	    High 	 	
 CVE-2017-0770 	A-38234812 	    High 	 	
 CVE-2017-0773 	A-37615911 	    High 	 	
 CVE-2017-0774 	A-62673844 [2]  High 	 	
 CVE-2017-0775 	A-62673179 	    High 	 	
-CVE-2017-0777 	A-38342499 	    High 	 	
+CVE-2017-0777 	A-38342499 	    High 	     done 	
 CVE-2017-0778 	A-62133227 	    High 	 	
 CVE-2017-0779 	A-38340117 [2]  Moderate 	
 
