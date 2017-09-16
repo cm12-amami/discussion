@@ -9,7 +9,7 @@ CVE-2017-0762 	A-62214264 	    Critical 	 done
 CVE-2017-0763 	A-62534693 	    Critical 	 done
 CVE-2017-0764 	A-62872015 	    Critical 	 done
 CVE-2017-0766 	A-37776688 	    High 	 	   done  (can't remove, so pointing instead to aosp/6.0.1_r80)
-CVE-2017-0767 	A-37536407 [2]  High 	 	
+CVE-2017-0767 	A-37536407 [2]  High 	 	   done
 CVE-2017-0768 	A-62019992 	    High 	 	
 CVE-2017-0770 	A-38234812 	    High 	 	
 CVE-2017-0773 	A-37615911 	    High 	 	
