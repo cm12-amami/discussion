@@ -1,0 +1,72 @@
+
+project build/
+08e78b562ac687730f294a13155346efe9956434 Updating security string to 2016-07-05 Zach Jang Wed May 25 12:38:46 2016 -0700
+c867b4e8632ab52e0989173729c5c27a9d915bd3 "LMY49L" The Android Automerger Fri Apr 22 17:11:42 2016 -0700
+fd6ebe091448d997685d305212a07314e6b2fb66 Update security patch string to 2016-06-01 Zach Jang Tue Apr 19 10:56:31 2016 -0700
+project dalvik/
+acca427853e7e06274437d871ac67f23fcc14def Fix potential buffer overrun. Aart Bik Thu Apr 21 15:51:41 2016 -0700
+project external/aac/
+2d37979ad4988229bb640e45af0fd4617b845221 Fix aacDecoder_drcExtractAndMap() Jean-Michel Trivi Tue Apr 5 12:38:32 2016 -0700
+project external/bluetooth/bluedroid/
+10c15f82db5fe115c348d4bebc7f5909d099fe6a Add guest mode functionality (2/3) Ajay Panicker Thu Mar 17 17:09:24 2016 -0700
+5b9f286d7fc54862c0c553181f7aa3e1465e2af1 DO NOT MERGE btif: check overflow on create_pbuf size Marie Janssen Thu May 12 15:30:16 2016 -0700
+project external/libpng/
+6bdd1507196395363225e8212435b87ce3ae4c0a DO NOT MERGE Update libpng to 1.6.20 Matt Sarett Tue May 3 13:29:54 2016 -0400
+project external/libvpx/
+452cd073800a3ea5f322a7cad47b526e233af569 DO NOT MERGE - external/libvpx/libwebm: Update snapshot Vignesh Venkatasubramanian Wed Jan 20 09:59:32 2016 -0800
+project external/openssl/
+8245e3e3e27928ed47f0451693840a73ea764490 Check that we have enough padding characters. Kurt Roeckx Sat Apr 16 14:08:56 2016 -0700
+e87aea4d68317735d99e8a6fd8d4e06846b40851 Fix encoding bug in i2c_ASN1_INTEGER Dr. Stephen Henson Thu Apr 16 16:43:09 2015 +0100
+project external/sepolicy/
+f517a9bdc0bd98f96be7d53cb276b333a6ffd59e Remove generic socket access from untrusted processes Nick Kralevich Thu May 5 13:37:55 2016 -0700
+project external/tremolo/
+5f7278eb59ebbbdf722470933ea9bbd8e61ae22f Check partword is in range for # of partitions Marco Nelissen Fri May 20 09:14:36 2016 -0700
+project frameworks/av/
+9eff150e355e7f2017743aee4b6abc71b5ad8c34 MPEG4Extractor: ensure kKeyTrackID exists before creating an MPEG4Source as track. Wei Jia Fri Aug 28 10:35:35 2015 -0700
+08e8b6db54ad1954c54377c0e509255092b70087 limit mediaserver memory Marco Nelissen Fri May 13 10:39:23 2016 -0700
+13ed0bc6b1c9cb38cf0846906af13c1e996d6589 Check malloc result to avoid NPD Marco Nelissen Wed May 11 11:11:20 2016 -0700
+4d3097ee50f33b14f5bfc5bba238bdb834f2aad3 Fix security vulnerability in libstagefright Jeff Tinker Fri May 13 11:48:11 2016 -0700
+842f999efbcd8a24803979b07a7a2fe904cf85dd h264bsdActivateParamSets: Prevent multiplication overflow. Pawin Vongmasa Wed May 11 16:08:21 2016 -0700
+14199c48d12ee347293c300453e586057c12515f Clear unused pointer field when sending across binder Marco Nelissen Mon May 2 14:12:34 2016 -0700
+0b1cb443d5de966c4f220201de76fc21bea0ca93 DO NOT MERGE Don't reject "thumbnail mode" setConfig Marco Nelissen Fri Mar 11 14:40:17 2016 -0800
+685173bba7a9135fe875510791a1c4605411bc7e DO NOT MERGE Verify OMX buffer sizes prior to access Marco Nelissen Mon Feb 29 12:47:20 2016 -0800
+dffe881faf24c981c26720eee1e17c1f7847fe9b SampleTable.cpp: Fixed a regression caused by a fix for bug 28076789. Pawin Vongmasa Wed Apr 20 15:51:48 2016 -0700
+f6bdce87efca75661a5d36dfbe39d6d64b707f07 SampleTable.cpp: Prevent corrupted stts block from causing excessive memory allocation. Pawin Vongmasa Wed Apr 13 16:25:12 2016 -0700
+45a8f3ae2fedd3ed964f7063c2679c4dd8c43d61 h264dec: check for overflows when calculating allocation size. Marco Nelissen Fri Apr 8 10:04:48 2016 -0700
+3c83bfa0428c37b26bae5143af6ad03e8cbe7b69 DO NOT MERGE codecs: check OMX buffer size before use in (gsm|g711)dec Wonsik Kim Thu Apr 7 17:45:02 2016 +0900
+ecb3f3cbc79eef4f09b1c8668e00d3b76b2bf145 AudioSource: initialize variables Marco Nelissen Tue Apr 5 14:20:11 2016 -0700
+bd712a1ba8f6b9769449ac3e1033afa9a01f1091 Check mp3 output buffer size Marco Nelissen Wed Mar 23 15:36:36 2016 -0700
+1d10450db64ecd1f27ecf37d711d487fe796cbce codecs: check OMX buffer size before use in (h263|h264)dec Wonsik Kim Sun Mar 20 10:44:44 2016 +0900
+1d64a971eec0323427d9ecbc62fdac8a0d73b45a DO NOT MERGE codecs: check OMX buffer size before use in hevcdec Wonsik Kim Sun Mar 20 10:44:44 2016 +0900
+ca6ba031f9ff8033b53f8295463ad9c2e7dbad6e Fix initialization of AAC presentation struct Marco Nelissen Thu Mar 10 14:29:26 2016 -0800
+fe907b11631c5ec7d090106efef184986a4703f3 DO NOT MERGE codecs: check OMX buffer size before use in (vorbis|opus)dec Wonsik Kim Wed Mar 30 17:13:00 2016 +0900
+project frameworks/base/
+6e9224c3ef7a2b0064b80e9a597ae9316f80d004 DO NOT MERGE : backport of backup transport whitelist Christopher Tate Fri May 20 15:29:31 2016 -0700
+632994a63fe79d8c5c0150cfa72ea8f6b12c904b Don't pass URL path and username/password to PAC scripts Paul Jensen Fri Apr 15 10:41:13 2016 -0400
+686f3b852a7f433605345a513957188b1c2456bb DO NOT MERGE Fix intent filter priorities Todd Kennedy Mon Apr 4 12:29:59 2016 -0700
+bba085be5ae2d96215d23129bf3b3bc9d0e49e46 Kill the real/isolated uid group, not the ApplicationInfo uid Christopher Tate Mon Apr 18 15:16:31 2016 -0700
+project frameworks/native/
+dd2ce3e0509deeeb3344f047d09b8661b360a968 Correctly handle dup() failure in Parcel::readNativeHandle Marco Nelissen Tue Apr 26 08:44:09 2016 -0700
+project hardware/libhardware/
+b5288579191c94da0ce1814dee0136eb49eec9ae Add guest mode functionality (1/3) Ajay Panicker Fri Mar 18 14:27:36 2016 -0700
+project hardware/qcom/audio/
+3e7c86eea2643e91c7463b524fd74da9988d17d7 DO NOT MERGE Fix AudioEffect reply overflow Andy Hung Thu Apr 28 13:43:44 2016 -0700
+project hardware/qcom/media/
+9cb3c42d1da2fa83652378dc4c2cf869fa50327e DO NOT MERGE mm-video-v4l2: venc: Avoid processing ETBs/FTBs in invalid states Mahesh Lanka Wed May 11 13:08:39 2016 +0530
+2c017b758f7e03dfccf6987f171a3a77fc5bb743 DO NOT MERGE mm-video-v4l2: vdec: Avoid processing ETBs/FTBs in invalid states Mahesh Lanka Wed May 11 12:34:20 2016 +0530
+14fe2d5aeee6b6018b2f69db318975f670f4d3f8 DO NOT MERGE mm-video-v4l2: vdec: Update param struct size correctly Praveen Chavan Sun Apr 17 23:25:23 2016 -0700
+ae622f348d0603652eb06089e6739145a5867118 DO NOT MERGE mm-video-v4l2: venc: add safety checks for freeing buffers Mahesh Lanka Thu Apr 7 16:14:16 2016 +0530
+686c171cb57bbab0c37b3f8f5ffb73421659f529 DO NOT MERGE mm-video-v4l2: vdec: add safety checks for freeing buffers Mahesh Lanka Sun Apr 10 19:04:12 2016 +0530
+5a72fd4a8e615188f8417b98e12c19e83e427461 DO NOT MERGE mm-video-v4l2: vdec: deprecate unused config OMX_IndexVendorVideoExtraData Mahesh Lanka Sun Apr 10 10:37:41 2016 +0530
+6d0247c2c7c004c2699c7cf7b89dad5dde55ab83 DO NOT MERGE mm-video-v4l2: vidc: validate omx param/config data Mahesh Lanka Sun Apr 10 21:02:11 2016 +0530
+project packages/apps/Bluetooth/
+a9cb1ad9155e62e2ac703c547ea697c40b0caf1b Add guest mode functionality (3/3) Ajay Panicker Thu Mar 17 17:12:08 2016 -0700
+c77e9b725650e1b82c1fefc54dcd0990c48b677f "DO NOT MERGE" Add write SMS protection Ajay Panicker Wed Apr 6 15:55:15 2016 -0700
+project packages/apps/Nfc/
+0070a0629cead1231a213d5e1d16ce9d41140592 Verify setForegroundDispatch caller is in foreground. Martijn Coenen Mon May 23 09:13:57 2016 +0200
+project packages/services/Telephony/
+fe5f4ffef74924112ed9d9b248e1ab025323c40c DO NOT MERGE Use E PhoneAccount for MT ECM Call Brad Ebinger Thu Mar 24 17:48:59 2016 -0700
+project system/core/
+2b5b9169a441f0ecb34651f146f37411a0a77c13 Fix scanf %s in lsof. Elliott Hughes Tue Apr 19 14:57:09 2016 -0700
+222b320889d650d659f1a06bde3a0acb6b12b230 Fix overflow in path building Daniel Rosenberg Tue Apr 12 16:30:28 2016 -0700
+
