@@ -1,0 +1,136 @@
+project kernel/msm
+------------------
+DONE  - f858ef64b11f05009a1974b0d3df1f3a9a0a4b9c msm: ispif: Remove handling of SD_SHUTDOWN, CVE-2016-8444, Jan17
+THERE - 1fe7366b4b255e43c424a13716b434b0c57f5444 perf: don't leave group_entry on sibling list (use-after-free), CVE-2017-0403, Jan17
+THERE - ef16a7d05ba1981e82b9e325e0fe345cf35eb36e ALSA: info: Check for integer overflow in snd_info_entry_write(), CVE-2017-0404, Jan17
+DONE  - ac2afe08221e0d077befd2e6f216598640af2d51 input: synaptics_dsx: add update bounds checks., CVE-2016-8458, Jan17
+N/A   - 4f45afba541c66777f60d7ea9b8489776c00ae2a input: ldaf: Initialize buffers before use., CVE-2016-8473+CVE-2016-8474, Jan17
+THERE - b49118bac90c11c83f04bffb326472e7d088e302 Kconfig: msm: disable ultrasound driver, CVE-2016-8481+CVE-2017-0435, Feb17
+DONE  - fe160e51f02ee5db529c2e84ac8364c89cce005e input: synaptics_dsx: remove some sysfs nodes., CVE-2017-0445, Feb17
+THERE - 5800e4182b917cbf38a3604de9e164bb4020b654 BACKPORT: aio: mark AIO pseudo-fs noexec, CVE-2016-10044, Feb17
+THERE - c28a13530cd7505705deb0040748662690653f3e ANDROID: ion: check for kref overflow, CVE-2017-0507, Mar17
+N/A   - 14139f66e4f4a678e30ed06764603cd050e06ffd msm: kgsl: Reserve a context ID slot but don't populate immediately, CVE-2016-8479, Mar17
+DONE  - 6789307cf8136e9a4d6a68dbf94792eca54801df msm: ADSPRPC: Buffer length truncated while validation, CVE-2017-0457, Mar17
+DONE  - e1fb1600fc222337989e3084d68df929882deae5 input: synaptics: put offset checks under mutex., CVE-2017-0524, Mar17
+THERE - 0847db050e4addbbb1e829d881b9b1a864edef58 msm: ipa: Update IPA rule temp buffer size, CVE-2017-0456, Mar17
+N/A   - d3d680c3b8eb289cf763c5c8af95a0bf9dbda8c8 net: rmnet_data: Fix incorrect netlink handling, CVE-2017-0460, Mar17
+DONE  - e1fb1600fc222337989e3084d68df929882deae5 input: synaptics: put offset checks under mutex., CVE-2017-0536, Mar17
+N/A   - db1764fe964460288fdf95f0fc94b547f9f3f9c1 msm: vidc: WARN_ON() reveals fuction addresses, CVE-2017-0452, Mar17
+N/A   - fc14506259f0f5aea55a3839be90c569d3c5b9bf msm: ADSPRPC: Buffer length to be copied is truncated, CVE-2017-0457, Mar17
+DONE* - 44e17a6f90b5d4eb99cf69e0b8bcf5441f46f5b9 msm: ipa: Prevent multiple header deletion from user space, CVE-2017-0525, Mar17
+N/A   - ddc398c5d658b5b33c23dbca617e0d1d021a5c6d qcacld-2.0: Avoid integer overflow in wma_enable_arp_ns_offload, CVE-2017-0575, Apr17
+N/A   - 9f47238a9f8ef29e83ad9cfc52be5b09b0caa2bc msm: mdss: Fix integer overflow in cursor validaton, CVE-2017-0579, Apr17
+N/A   - 4ec51772a88af1d6c1d2c454dc02e762ea41ba31 mdss: Validate cursor image size, CVE-2017-0579, Apr17
+N/A   - 47918a436fa424a5eb81afc6a9eae6ad91b8b366 qcacld-2.0: Do not copy buffer to user-space if diag read fails, CVE-2017-0584, Apr17
+DONE  - 4989793cfe357f1fbaf8ce163cb9ba3d94910e5d ASoC: msm: qdsp6v2: Fix out-of-bounds access in put functions, CVE-2017-0586, Apr17
+DONE  - 9f2fdcd8a4cd5c9dc18a10ff59acf2507cd9d62d msm: mdss: install the rel_fence even if retire_fence is skipped, CVE-2016-10284, May17
+DONE  - 2c3ba177a8ad3a305679b27c9ee60fe999b7ec2a msm: mdss: Install sync fences after user copy, CVE-2016-10284, May17
+N/A   - d3a15d8b5fe51f34e3912cfe06b92303c8d4c48b qcacld-2.0: Acquire lock to protect hdd_ctx in hdd_driver_memdump_read(), CVE-2017-0624, May17
+N/A   - ecf7fbc18bb52c054a24eff005762a8fc8c3ad1b qcacld-2.0: Fix memory leak issue, CVE-2016-10292, May17
+DONE  - 8c4bbcf204147f1f7ad349e83e7dc130ca6a783f Prevent heap overflow in uvc driver, CVE-2017-0627, May17
+DONE  - a4d7a2b9f54356155decacbfce9e8ef17aabc2e7 UPSTREAM: tracing: Fix trace_printk() to print when not using bprintk(), CVE-2017-0630, May17
+DONE  - ad6bd622f2f2de5cb47cb0c8806ced1cd5dbac9c tracing: do not leak kernel addresses, CVE-2017-0630, May17
+DONE  - 70e632224737d448b1b4083af7d6b8fcee02b192 input: touchscreen: validate bounds of intr_reg_num, CVE-2017-0650, Jun17
+N/A   - 66869221d2d717431cb9dfacfe554720ec66eb30 soc: qcom: pil: Avoid possible buffer overflow during Modem boot, CVE-2017-8243, Jul17
+DONE  - 2c2206a9772fd3afb064cac14a9ba9156ed647a6 ashmem: remove cache maintenance support, CVE-2017-8263+CVE-2017-8267, Jul17
+DONE  - 14cb51293de4d534a0f78bc793de79bbcd445425 msm: camera: Add regulator enable and disable independent of CSID, CVE-2017-8264, Jul17
+N/A   - 644ff4535d9034b1571bf1f70555036d8d6d26fd qcacld-2.0: Race condition while using pkt log buffer, CVE-2017-8270, Jul17
+DONE  - a793531b751d8c3609e2bf1a5dc2c0f10e003632 msm: ipa: Fix for missing int overflow check in the refcount library, CVE-2017-0746, Aug17
+SKIP  - c7942134555e2205e4e50a6d05ebf4710fd34a5d USB: f_qc_rndis: Prevent use-after-free for _rndis_qc, CVE-2017-9684, Aug17
+N/A   - 73f1de475b153a4e3c30ea0f6e80f9bde372906f msm: kgsl: Fix the race between context create and destroy, CVE-2017-9682, Aug17
+N/A   - e7a3029ebf4175889e8bdb278fd9cf02a211118c ASoC: msm: qdspv2: add result check when audio process fail, CVE-2017-0748, Aug17
+DONE  - 7717cb925606f666ad12d902ab8a4db93c0e3778 qcacld-2.0: Trim extn capability to max supported in change station, CVE-2017-9693, Aug17
+N/A   - 176a112db98d1e3273f366331bfbe74f79c163f9 qcacld-2.0: Add lost AP sample size entry to nla policy, CVE-2017-9694, Aug17
+DONE  - 286a04067ad2688a1e126bb3c3057309db480ab9 qcdev: Check the digest length during the SHA operations, CVE-2017-0751, Aug17
+DONE  - 47b3a105cc4cec0d912345d27d9743b97691b21c Prevent potential double frees in sg driver, CVE-2017-0794, Sep17
+N/A   - f51a152ad52108457ae6b1caf7a04857f25c4bed msm: ipa: fix security issues in ipa wan driver, CVE-2017-10999, Sep17
+N/A   - d5d2c9baff89932e822ceae74b1569af07d55f19 qcacld-2.0: Fix out of bound read issue in get link properties, CVE-2017-11001, Sep17
+DONE  - 825eeb85d4866e362452b18df929a54a7c6111f6 qcacld-2.0: Avoid concurrent matrix max param overread, CVE-2017-11002, Sep17
+N/A   - fae242db5e1943ba878b4fb215fe6e7f1c387a20 msm: pcie: add bounds check for debugfs register write, CVE-2017-10997, Sep17
+DONE  - af787fdedeb62964efaf9e969ad17e3b6c232082 msm: camera: fix off-by-one overflow in msm_isp_get_bufq, CVE-2017-11000, Sep17
+DONE  - 6a16567622ff6ccc2a23bd8884b0781995a481b1 qcacld-2.0: Fix kernel memory corruption, CVE-2017-11053, Oct17
+N/A   - 0d355164233a25e3a27eac88380f226bd2e57af7 compat_qcedev: Fix accessing userspace memory in kernel space, CVE-2017-11056, Oct17
+N/A   - 181940e5a70dbaa97c830d7608b234efc682ebdf msm: camera: sensor:validating the flash initialization parameters, CVE-2017-11057, Oct17
+N/A   - 4d602a2d14c32a3a962dc94d866023bb4ea02cb4 ASoC: msm: qdsp6v2: add size check to fix out of bounds issue, CVE-2017-11046, Oct17
+DONE  - 8bb2e7a13a5a439b5bad770b408fef6be5de3060 crypto: msm: Fix several race condition issues in crypto drivers, CVE-2017-11059, Oct17
+DONE  - c46874c8be2069210759834a8c908fcbf23d2988 msm: mdss: Buffer overflow while processing gamut table data, CVE-2017-9706, Oct17
+N/A   - d8669a00f68a3f1006c0897f843ba3e92b745fa0 msm: mdss: Increase fbmem buf ref count before use, CVE-2017-11048, Oct17
+N/A   - ed6814c11abf9f96d4060b2825c50842ef83bdba qcacld-2.0: Avoid extscan bucket spec overread, CVE-2017-9715, Oct17
+N/A   - 42a28a93ef19863c39ade86843efb83efc845344 qcacld-2.0: Validate vendor set roaming params command, CVE-2017-11061, Oct17
+N/A   - 49eec96af9448e23a8fc2e41f67db948983b8427 qcacld-2.0: Avoid buffer overread when parsing PNO commands, CVE-2017-11060, Oct17
+N/A   - 68898d364c0f67100186663af55e0b9fd38de7a9 qcacld-2.0: Add get valid channels entry to NLA policy, CVE-2017-9717, Oct17
+N/A   - c18c5935d437e4b06ec630d755a42b49e11bd071 qcacld-2.0: Properly validate QCA_WLAN_VENDOR_ATTR_NDP_IFACE_STR, CVE-2017-11052, Oct17
+THERE - 7dff4291c6aecad9143b8fc2c0769f818834c33a qcacld-2.0: Avoid overread when configuring MAC addresses, CVE-2017-11054, Oct17
+N/A   - 6d19d7d4e0ff7e7e4c80c49414a016035ac70a3c qcacld-2.0: Validate vendor command do_acs, CVE-2017-11062, Oct17
+N/A   - 9f5af4954a048f408f70c7dfeef0d8f655abca10 qcacld-2.0: Apply policy to fine time measurement, CVE-2017-11055, Oct17
+N/A   - 856abd9ad16d9d69e688d06a1f548c2f8df67c02 qcacld-2.0: Add an attribute to represent PNO/EPNO Request ID, CVE-2017-11064, Oct17
+N/A   - 5204ea3cae1b07aad76d9d831e46dfaea492f488 qcacld-2.0: Avoid buffer overread when parsing PNO commands, CVE-2017-11064, Oct17
+N/A   - d78717de292b114f388e900e3e7947ae44630982 msm: kgsl: Protect the event->handle with spinlock, CVE-2017-11092, Nov17
+DONE  - 3ee7145e77371f36e263fb8143ea84b3aec2bbcf ALSA: pcm: prevent UAF in snd_pcm_info, CVE-2017-0861, Nov17
+DONE  - 47166c8e41fd8d5fafd3c4f82ca2ffe16d36d487 ANDROID: input: keychord: fix race condition bug, CVE-2017-0862, Nov17
+N/A   - 120d28bad9890eca3a6451a83a7c71cb650dfef7 qcacld-2.0: Remove code related to mmap functionality for pktlog, CVE-2017-11073, Nov17
+DONE  - 8f5bc4979b572bd4a1772b6579310f9b3a4d48e3 SoC: msm: audio-effects: return directly to avoid integer overflow, CVE-2017-11085, Nov17
+DONE  - baebf4551e0346cd59d66a1a3c2a3fc531bbaca3 msm: sensor: Fix crash when ioctl VIDIOC_MSM_SENSOR_INIT_CFG, CVE-2017-9702, Nov17
+N/A   - 6a1d4a4355bad836300054784ce76a2b789bf59e msm: camera: fix untrusted pointer for power down setting, CVE-2017-9702, Nov17
+N/A   - a30bdf229ab1efd96e500c43aabbff20e223128a cfg80211: Define nla_policy for NL80211_ATTR_LOCAL_MESH_POWER_MODE, CVE-2017-11089, Nov17
+N/A   - e4e7cff5507686fae3bb39d1274107b70d041fb7 BACKPORT: msm: sensor: validating the flash initialization parameters, CVE-2017-8239, Nov17
+DONE  - 98f7c17df33355e78417e6bb2395f810a903bb64 cfg80211: Check if PMKID attribute is of expected size, CVE-2017-11090, Nov17
+N/A   - fb88a914d7cbe0fc354ddd65fcb2cc268bb56038 msm: camera: Bound check for num_of_stream., CVE-2017-9696, Nov17
+N/A   - c374e7281ae31a6d0316ff20f8df841e1e05e4d7 Revert "Revert "msm: camera: validate num_streams in stream_cfg_cmd before using it"", CVE-2017-9696, Nov17
+N/A   - 4b1c1817a1e73142596b724e0382a7173e3a1138 Revert "msm: camera: validate num_streams in stream_cfg_cmd before using it", CVE-2017-9696, Nov17
+DONE  - 83c470dc70a7185f279b5074f457d39963d40224 msm: camera: validate num_streams in stream_cfg_cmd before using it, CVE-2017-9696, Nov17
+THERE - e4e29ab1255f229a48c983d14f903f99eb2241a1 ANDROID: ion: Fix uninitialized variable, CVE-2017-0564, Dec17
+THERE - 1b227bb1539fb92ee9d6175264ae6027393e1f29 ANDROID: ion: Protect kref from userspace manipulation, CVE-2017-0564, Dec17
+N/A   - 68e5a3c7ea5671fc9e61f83c5910c855a4d021a9 angler: remove 'reboot edl' interface for security., CVE-2017-13174, Dec17
+THERE - a961645bdfa622a812a9c624ed7e189b2da1e234 UPSTREAM: ALSA: timer: Call notifier in the same spinlock, CVE-2017-13167, Dec17
+THERE - 41455882528a805e9a9e4f0ea887dc669c9ccb53 UPSTREAM: ALSA: timer: Fix race between stop and interrupt, CVE-2017-13167, Dec17
+THERE - 7b2f245546a5bf525000d20a7ad7c0979b63317c UPSTREAM: ALSA: timer: Fix link corruption due to double start or stop, CVE-2017-13167, Dec17
+THERE - babbb1fc0e276e4fb989ef9246a63e55a2330b38 UPSTREAM: ALSA: timer: Code cleanup, CVE-2017-13167, Dec17
+DONE  - 874d38487a38a5ac09f4c459758a1276a1cd1c7a BACKPORT: ALSA: timer: Fix race at concurrent reads, CVE-2017-13167, Dec17
+THERE - 3fa000957bd3f1f75d31b03adab75dddd14301b7 BACKPORT: ALSA: timer: Handle disconnection more safely, CVE-2017-13167, Dec17
+THERE - cbba392b1097b10204b6268373f08c84266bf2b7 UPSTREAM: ALSA: timer: Fix wrong instance passed to slave callbacks, CVE-2017-13167, Dec17
+THERE - b757637f695d114dc5c4eb3d6c93f11ba2b3cb06 UPSTREAM: ALSA: timer: Harden slave timer list handling, CVE-2017-13167, Dec17
+THERE - ab1e30ef86302d08f9de6a8d6eb825d07e4618d7 ANDROID: usb: gadget: f_mtp: Return error if count is negative, CVE-2017-13163, Dec17
+SKIP  - 163a99365287314e0228724faa8789c83469c622 v4l2: Refactor, fix security bug in compat ioctl32, CVE-2017-13166, Dec17
+THERE - bee9a25f45defb9c68bbb83ea1e3b039f1e469d5 ANDROID: scsi: Add segment checking in sg_read, CVE-2017-13168, Dec17
+THERE - 3df8baeedccb6607c08a28533b47b81bbe339f39 android: binder: Move buffer out of area shared with user space, CVE-2017-13164, Dec17
+THERE - c656a30c4fb357739107c59bf08062def41c4a41 android: binder: Refactor prev and next buffer into a helper function, CVE-2017-13164, Dec17
+THERE - 9eb5d0470c293820f52515952f92a8c2fc1e80f2 BACKPORT: staging: android: fix missing a blank line after declarations, CVE-2017-13164, Dec17
+THERE - bf6a113e65b19f52ac9083e005457f60cd23ab94 UPSTREAM: Staging: Android: removed an unnecessary else statement, CVE-2017-13164, Dec17
+THERE - f4a1eae2564df9fa4c9fcddbadd716e21728924c UPSTREAM: include/linux/mm.h: add PAGE_ALIGNED() helper, CVE-2017-13164, Dec17
+N/A   - 505b83271a15eaab579d4e8024fc8886bf08dbc8 msm: sensor: Add mutex lock during ois power down operations, CVE-2017-9708, Dec17
+N/A   - 240cee8f17e7006642a41672b4d0378eb3de3c30 msm: camera: Avoid deadlock for vb2 operations using separate lock, CVE-2017-9703, Dec17
+N/A   - eee8b2cafe8a1af3076e6f9e16ca0762f3773831 msm: camera: Use mutex lock to avoid race condition, CVE-2017-9703, Dec17
+SKIP  - 0a2954f1e1f7caa8a904b65467ebf3442c7cf851 msm: vidc: Squash the below changes, CVE-2017-8244, Dec17
+DONE  - 8ad95a926c298a084456baedd55383d1e895602f input: synaptics: restrict sysfs node write permissions, CVE-2017-13219, Jan18
+DONE  - a896f83eec05962c1052cf96e68561912f0c68dd ASoC: wcd9xxx: restrict debugfs permission, CVE-2017-15850, Jan18
+
+
+project kernel/common/
+----------------------
+DONE  - 432986fce6fe6318eddb710fde07028aad841c25 BACKPORT: FROMLIST: pids: make task_tgid_nr_ns() safe, CVE-2017-0427, Feb17
+THERE - 3c1659a14b13e66d1d1ab926e242489bda494752 BACKPORT: f2fs: sanity check log_blocks_per_seg, CVE-2017-0750,  Aug17
+
+
+project hardware/qcom/display/
+------------------------------
+SKIP -  f3abcf51ab779dcd64acabdced4920ffbc567642 [DO NOT MERGE] msm8998: libgralloc: Fix adding offset to the mapped base address, CVE-2017-14904, Dec17
+SKIP -  7344889023d50b5c1153da5ec25c25ce323416a5 [DO NOT MERGE] msm8996: libgralloc: Fix adding offset to the mapped base address, CVE-2017-14904, Dec17
+SKIP -  1008e23395b94e1ce0a68e9d81816620cb1678ce [DO NOT MERGE] msm8994: libgralloc: Fix adding offset to the mapped base address, CVE-2017-14904, Dec17
+
+
+project external/pdfium/
+------------------------
+THERE - 269ce8856b4daad744bfd3c34382d4c4668f3b9a Backport 940100c28ae28931722290794889cf84a92c5f6f from libopenjpeg20, CVE-2015-8871, Jun2017
+THERE - f74994840b0a85b91d237f8f0e59004063e8a741 Backport 734d57d5f7842aa7c2c9f36d62131ab4d8bd6c87 from libopenjpeg20, CVE-2015-8871, Jun17
+
+
+project frameworks/av/
+----------------------
+THERE - 9908b1faf02f08060095fca6fbcf39ae4d30da62 Avoid crash for stss sync sample number 0, CVE-2017-0643, Jun17
+
+
+project external/sonivox/
+-------------------------
+DONE - 0d6d59d3049781c9864ce04e61874a9935986cda Sonivox: sanity check headerLength in XMF_ReadNode., CVE-2017-0644, Jun17
+
